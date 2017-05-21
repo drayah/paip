@@ -12,3 +12,8 @@
     (->> names
       (filter #(not (some #{%} post-nominals)))
       (str/join " "))))
+
+(defn power
+  "Given numbers x and y return x^y"
+  [x y]
+  (Math/pow x y))
