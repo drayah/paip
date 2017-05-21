@@ -1,0 +1,17 @@
+resources/*.csv
+.lein-repl-history
+.DS_Store
+target
+.idea
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+*.swp
+*.iml
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/
