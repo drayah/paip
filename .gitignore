@@ -12,6 +12,6 @@ pom.xml.asc
 *.swp
 *.iml
 /.lein-*
-/.nrepl-port
+**/.nrepl-port
 .hgignore
 .hg/
