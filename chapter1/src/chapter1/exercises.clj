@@ -17,3 +17,9 @@
   "Given numbers x and y return x^y"
   [x y]
   (Math/pow x y))
+
+(defn dot-product
+  "Return the dot product of two sequences of numbers"
+  [xs ys]
+  (let [products (map #(* %1 %2) xs ys)]
+    (reduce #(+ %1 %2) products)))

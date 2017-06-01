@@ -16,3 +16,8 @@
     (is (= 4.0 (power 2 2)))
     (is (= 1.0 (power 9 0)))
     (is (= 2.0 (power 2 1)))))
+
+(deftest test-dot-product
+  (testing "dot-product"
+    (is (= 110 (dot-product '(10 20) '(3 4))))
+    (is (= 28 (dot-product '(1 2 3) '(2 4 6))))))
